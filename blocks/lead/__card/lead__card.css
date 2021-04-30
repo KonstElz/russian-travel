@@ -1,0 +1,11 @@
+.lead__card {
+  width: 100%;
+  max-width: calc(1280px - 2 * 148px);
+  margin: 0;
+}
+
+@media screen and (width: 1024px) {
+  .lead__card {
+    max-width: calc(100% - 2 * 48px);
+  }
+}

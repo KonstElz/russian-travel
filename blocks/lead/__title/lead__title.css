@@ -8,18 +8,16 @@
   color: #FFFFFF;
 }
 
-/*сомневаюсь*/
+@media screen and (max-width: 767px) {
+  .lead__title {
+    font-size: 58px;
+    line-height: 1.1;
+  }
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .lead__title {
     font-size: 40px;
     line-height: 1.1;
   }
 }
-
-/*@media screen and (max-width: 425px) {
-  .lead__title {
-    font-size: 40px;
-    line-height: 1.1;
-  }
-}*/
